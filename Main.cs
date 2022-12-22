@@ -36,6 +36,12 @@ class EulerDriver
         Problem5 problem5 = new Problem5();
         int smallestMultiple = problem5.smallestEvenlyDivisible(20);
         Console.WriteLine("Answer: {0}", smallestMultiple);
+
+        //Problem 6
+        Console.WriteLine("Solving Problem 6: Sum Square Difference");
+        Problem6 problem6 = new Problem6();
+        int sum_sqaure_diff = problem6.problem6Solution();
+        Console.WriteLine("Answer: {0}", sum_sqaure_diff);
     }
 }
 

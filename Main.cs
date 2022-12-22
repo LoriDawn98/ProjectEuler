@@ -42,6 +42,12 @@ class EulerDriver
         Problem6 problem6 = new Problem6();
         int sumSqaureDiff = problem6.problem6Solution();
         Console.WriteLine("Answer: {0}", sumSqaureDiff);
+
+        //Problem 7
+        Console.WriteLine("Solving Problem 7: 10001st Prime Number");
+        Problem7 problem7 = new Problem7();
+        long primeNumber10001 = problem7.getPrimeNum(10001);
+        Console.WriteLine("Answer: {0}", primeNumber10001);
     }
 }
 

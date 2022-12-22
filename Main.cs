@@ -18,6 +18,12 @@ class EulerDriver
         Problem2 problem2 = new Problem2();
         sum = problem2.getSumOfEvenFibonacci(4000000);
         Console.WriteLine("Answer: {0}", sum);
+
+        //Problem 3
+        Console.WriteLine("Solving Problem 3: Largest Prime Factor");
+        Problem3 problem3 = new Problem3();
+        long largestPrimeFactor = problem3.getLargestPrimeFactor(600851475143);
+        Console.WriteLine("Answer: {0}", largestPrimeFactor);
     }
 }
 

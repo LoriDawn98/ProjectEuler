@@ -24,6 +24,12 @@ class EulerDriver
         Problem3 problem3 = new Problem3();
         long largestPrimeFactor = problem3.getLargestPrimeFactor(600851475143);
         Console.WriteLine("Answer: {0}", largestPrimeFactor);
+
+        //Problem 4
+        Console.WriteLine("Solving Problem 4: Largest Palindrome Product");
+        Problem4 problem4 = new Problem4();
+        int largestPalindrome = problem4.largestPalindrome();
+        Console.WriteLine("Answer: {0}", largestPalindrome);
     }
 }
 

@@ -30,6 +30,12 @@ class EulerDriver
         Problem4 problem4 = new Problem4();
         int largestPalindrome = problem4.largestPalindrome();
         Console.WriteLine("Answer: {0}", largestPalindrome);
+
+        //Problem 5
+        Console.WriteLine("Solving Problem 5: Smallest Multiple");
+        Problem5 problem5 = new Problem5();
+        int smallestMultiple = problem5.smallestEvenlyDivisible(20);
+        Console.WriteLine("Answer: {0}", smallestMultiple);
     }
 }
 
